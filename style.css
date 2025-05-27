@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-image: url('Images/background1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+    padding: 20px;
+    margin: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin: 10px;
+
+}
+
+.logo img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navist{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.navist li a{
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.navist li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 3px;
+    background-color: blueviolet;
+    transition: 0.3s ease;
+}
+
+.navist li a:hover::after {
+    width: 100%;
+}
+
+.btn{
+    padding: 10px 24px;
+    margin: 10px;
+    background-color: blueviolet;
+    color: #ffffff;
+    border: 0;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: blue;
+}
+
+.mainbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    color: #ffffff;
+}
+
+.mainbody h3{
+    font-size: 90px;
+    font-weight: 900;
+    color: transparent; 
+    -webkit-text-stroke: 2px #fff;
+    transition: 0.4s ease;
+}
+
+.mainbody h3:hover{
+    color: blueviolet;
+}
+
+.mainbody p{
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(198, 198, 252);
+}
+
+.mainbody span{
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.mainbody span:hover{
+    background-color: rgb(40, 16, 61);
+    transform: scale(1.1);
+}
+
+
+
+
+@media (max-width: 768px){
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .mainbody{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .mainbody h3{
+        font-size: 50px;
+        -webkit-text-stroke: 1px #fff;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
